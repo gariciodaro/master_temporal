@@ -1,0 +1,17 @@
+# Notes on paper EEG child
+
+1) apply Lilliefors test to see if each features for every channel follow a normal dist (p statitic)
+2) F-tests showed that the variances of every feature were
+found to be equal between groups (p > 0.01, after correc-
+tion)
+3)The spatial distributions of power values
+show symmetry in both the ADHD and control groups, and
+distribution centers moved from frontal and central regions
+to temporal and occipital regions as frequency increased.
+4)From t-test results, we found that in all regions, the delta power of the ADHD group was significantly higher than that of
+the control group (p < 0.01).
+5)No channel showed a significant
+difference in theta power	
+6)The alpha power and beta1 power
+were significantly lower in the ADHD group than in the control
+group (p < 0.01)

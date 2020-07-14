@@ -99,9 +99,7 @@ def get_power_spectrum(X,channel,fs=250):
             #gamma_power=Pxx_den[indexs[0]:indexs[1]]
             total_power=delta_power+theta_power+alpha_power+beta_power
 
-            data_channel_holder=np.hstack([data_channel_holder,
-                                            alpha_power/total_power,
-                                            beta_power/total_power])
+            data_channel_holder=np.hstack([data_channel_holder,theta_power/beta_power])
             #print(data_channel_holder)
         if(sample_number==0):
             sample_holder=data_channel_holder
@@ -117,7 +115,7 @@ def get_power_spectrum(X,channel,fs=250):
 if __name__=="__main__":
     # Experiment *************************************************
     n_channels=110
-    experiment="alpha_beta"
+    experiment="ratio_theta_beta"
     data_co="/home/gari/Desktop/master_tesis_v3/Data/Datasets_"
 
     # Data folder destination

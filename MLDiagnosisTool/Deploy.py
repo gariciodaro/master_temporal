@@ -3,7 +3,8 @@
 from Classes.Predictor import Predictor
 #Interaction between filesystem and python Environment.
 #Uses pickle.
-from OFHandlers import OFHandlers as OFH
+#from OFHandlers import OFHandlers as OFH
+import OFHandlers as OFH
 import os
 
 def deploy_helper(path):

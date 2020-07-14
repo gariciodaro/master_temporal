@@ -56,6 +56,7 @@ def hbn_raw(subject,path_absolute):
     #fake structure of events
     evs = np.empty(shape=[0, 3])
 
+    #from HBT, the signals were already marked each 20 seconds.
     for each_element in df_subject_event.values[1:len(df_subject_event)-1]:
         if('break cnt'!=each_element[0]):
             if(int(each_element[0])==30):
